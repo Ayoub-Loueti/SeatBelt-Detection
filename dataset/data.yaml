@@ -1,0 +1,24 @@
+path: D:\GitHub\yasmine\merged_seatbelt_dataset
+train: train/images
+val: valid/images
+test: test/images
+nc: 2
+names:
+- person_no_seatbelt
+- person_seatbelt
+merged_info:
+  source_datasets: 3
+  train_images: 741
+  val_images: 197
+  test_images: 557
+  total_annotations: 1935
+  class_distribution:
+    train:
+      person_no_seatbelt: 432
+      person_seatbelt: 520
+    val:
+      person_no_seatbelt: 114
+      person_seatbelt: 140
+    test:
+      person_no_seatbelt: 348
+      person_seatbelt: 381
